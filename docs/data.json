@@ -125,6 +125,12 @@
           "description": "Validate proposed release blockers using Red Hat OpenShift release blocker criteria",
           "name": "validate-blockers",
           "synopsis": "/jira:validate-blockers [target-version] [component-filter] [--bug issue-key]"
+        },
+        {
+          "argument_hint": "[JIRA bug key]",
+          "description": "Verify a bug fix by analyzing the bug report, root cause, and fix implementation",
+          "name": "verify-bug",
+          "synopsis": "/jira:verify-bug [JIRA bug key]"
         }
       ],
       "description": "A plugin to automate tasks with Jira",

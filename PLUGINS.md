@@ -161,6 +161,7 @@ A plugin to automate tasks with Jira
 - **`/jira:solve`** - Analyze a JIRA issue and create a pull request to solve it.
 - **`/jira:status-rollup` `issue-id [--start-date YYYY-MM-DD] [--end-date YYYY-MM-DD]`** - Generate a status rollup comment for any JIRA issue based on all child issues and a given date range
 - **`/jira:validate-blockers` `[target-version] [component-filter] [--bug issue-key]`** - Validate proposed release blockers using Red Hat OpenShift release blocker criteria
+- **`/jira:verify-bug` `[JIRA bug key]`** - Verify a bug fix by analyzing the bug report, root cause, and fix implementation
 
 See [plugins/jira/README.md](plugins/jira/README.md) for detailed documentation.
 
